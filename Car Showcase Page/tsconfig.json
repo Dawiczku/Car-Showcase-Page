@@ -19,7 +19,8 @@
       "components/*": ["components/*"],
       "pages/*": ["pages/*"],
       "styles/*": ["styles/*"],
-      "types/*": ["types/*"]
+      "types/*": ["types/*"],
+      "utils/*": ["utils/*"]
     },
     /* Linting */
     "strict": true,

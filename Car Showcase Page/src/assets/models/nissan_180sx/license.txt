@@ -1,0 +1,11 @@
+Model Information:
+* title:	NISSAN 180SX
+* source:	https://sketchfab.com/3d-models/nissan-180sx-fbc09bb2f81a4cbb813ba6aa31d08d9c
+* author:	temich (https://sketchfab.com/temich_)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "NISSAN 180SX" (https://sketchfab.com/3d-models/nissan-180sx-fbc09bb2f81a4cbb813ba6aa31d08d9c) by temich (https://sketchfab.com/temich_) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
