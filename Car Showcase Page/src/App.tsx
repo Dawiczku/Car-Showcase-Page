@@ -1,5 +1,7 @@
+import { GalleryPage } from "pages/GalleryPage";
+
 function App() {
-  return <></>;
+  return <GalleryPage />;
 }
 
 export default App;

@@ -1,0 +1,21 @@
+@use "../helpers/variables" as *;
+
+.side-bar {
+  &__logo,
+  &__links {
+    padding: 30px 20px;
+  }
+  &__wrapper {
+    grid-area: sidebar;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: $clr--background;
+  }
+  &__menu {
+    position: absolute;
+    height: 100%;
+  }
+}

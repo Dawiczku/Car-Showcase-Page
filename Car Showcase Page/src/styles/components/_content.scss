@@ -1,0 +1,69 @@
+@use "../helpers/variables" as *;
+
+.content {
+  &__wrapper {
+    grid-area: content;
+    display: flex;
+  }
+
+  &__info-container {
+    flex: 1;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3rem 3rem 6rem 3rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: -1;
+    }
+
+    h2 {
+      font-size: 8rem;
+    }
+    span {
+      color: transparent;
+      -webkit-text-stroke: 2px $clr--text;
+    }
+  }
+
+  &__nickname {
+    font-size: 2.5rem;
+  }
+
+  &__custom-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .bar {
+      height: 4px;
+      background-color: $clr--text;
+      border-radius: 2px;
+    }
+    .bar:nth-child(1) {
+      width: 20px;
+    }
+    .bar:nth-child(2) {
+      width: 50px;
+    }
+    .bar:nth-child(3) {
+      width: 150px;
+    }
+  }
+
+  &__short-specs {
+    display: flex;
+    gap: 5rem;
+    strong {
+      font-size: 2rem;
+    }
+  }
+
+  &__description {
+    font-size: 1.25rem;
+  }
+}

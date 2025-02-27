@@ -1,0 +1,32 @@
+@use "helpers/font";
+@use "helpers/variables" as *;
+@forward "./components/header";
+@forward "./components/sidebar";
+@forward "./components/gallery";
+@forward "./components/content";
+@forward "./pages/galleryPage";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "OpenSans-Regular";
+  background-image: url("src/assets/backgrounds/nissan_sx180/sx180_2.jpg");
+  background-size: cover no-repeat;
+  color: $clr--text;
+  position: relative;
+}

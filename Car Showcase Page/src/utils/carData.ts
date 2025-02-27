@@ -1,5 +1,5 @@
-export const carData = [
-  {
+export const carData = {
+  honda_nsx: {
     title: "Light Legend",
     name: "Honda NSX",
     engineType: "3.0L V6 DOHC VTEC",
@@ -19,7 +19,7 @@ export const carData = [
       brakes: "Ventilated disc brakes",
     },
   },
-  {
+  nissan_r34: {
     title: "Godzilla R34",
     name: "Nissan Skyline R34 GT-R",
     engineType: "2.6L Inline-6 Twin-Turbo (RB26DETT)",
@@ -39,7 +39,7 @@ export const carData = [
       brakes: "Brembo ventilated discs",
     },
   },
-  {
+  toyota_supra: {
     title: "Boost Beast",
     name: "Toyota Supra MK4 (A80)",
     engineType: "3.0L Inline-6 Twin-Turbo (2JZ-GTE)",
@@ -59,7 +59,7 @@ export const carData = [
       brakes: "Ventilated discs",
     },
   },
-  {
+  mazda_rx7: {
     title: "Rotary Master",
     name: "Mazda RX-7 (FD3S)",
     engineType: "1.3L Twin-Rotor Twin-Turbo (13B-REW)",
@@ -79,12 +79,12 @@ export const carData = [
       brakes: "Ventilated discs",
     },
   },
-  {
+  nissan_180sx: {
     title: "Drift Icon",
     name: "Nissan 180SX (S13)",
-    engineType: "1.8L Inline-4 Turbo (CA18DET) / 2.0L Inline-4 Turbo (SR20DET)",
+    engineType: "2.0L Inline-4 Turbo (SR20DET)",
     boost: "Turbocharged",
-    horsePower: "170 HP (CA18DET) / 205 HP (SR20DET)",
+    horsePower: "205 HP (SR20DET)",
     topSpeed: "225 km/h",
     description:
       "A JDM drift legend, the 180SX came with pop-up headlights and was powered by the CA18DET or SR20DET turbocharged engines. Known for its lightweight chassis and RWD setup.",
@@ -99,4 +99,4 @@ export const carData = [
       brakes: "Ventilated discs",
     },
   },
-];
+};
