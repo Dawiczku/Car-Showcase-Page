@@ -1,4 +1,4 @@
-import { elastic as Menu } from "react-burger-menu";
+import { slide as Menu } from "react-burger-menu";
 import { burgerMenuStyles } from "utils/burgerMenuStyles";
 
 export const SideBar = () => {
